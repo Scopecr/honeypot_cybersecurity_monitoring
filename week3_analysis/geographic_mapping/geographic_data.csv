@@ -1,0 +1,63 @@
+IP,Attacks,Country,City,ISP,ASN,Threat_Level
+167.172.238.192,13064,NL,Amsterdam,RIPE Network Coordination Centre (RIPE),,Critical
+196.251.86.69,3190,SC,,,,Critical
+8.138.156.180,2540,AU,South Brisbane,Asia Pacific Network Information Centre (APNIC),,Critical
+51.79.2.27,669,EU # Country is really world wide,,,,High
+139.199.80.137,414,AU,South Brisbane,Asia Pacific Network Information Centre (APNIC),,Medium
+196.251.118.184,309,SC,,,,Medium
+187.157.91.186,252,MX,,,,Medium
+27.201.147.43,190,CN,,,,Medium
+204.76.203.28,190,NL,Eygelshoven,Intelligence Hosting LLC (IHL-76),,Medium
+134.209.145.210,169,US,Broomfield,DigitalOcean, LLC (DO-13),,Medium
+128.199.139.231,112,NL,Amsterdam,RIPE Network Coordination Centre (RIPE),,Medium
+194.0.234.21,103,MD,,ORG-AD261-RIPE,,Medium
+206.123.145.21,96,US,Houston,Secure Internet LLC (SIL-69),,Low
+134.209.156.170,84,US,Broomfield,DigitalOcean, LLC (DO-13),,Low
+206.123.145.234,82,US,Houston,Secure Internet LLC (SIL-69),,Low
+185.156.73.233,73,NL,,ORG-TE87-RIPE,,Low
+188.166.242.21,69,SG,,ORG-DOI2-RIPE,,Low
+51.158.205.203,66,NL,,ORG-ONLI1-RIPE,,Low
+139.59.101.18,61,AU,South Brisbane,Asia Pacific Network Information Centre (APNIC),,Low
+213.209.143.117,60,NL,,ORG-SITL5-RIPE,,Low
+206.123.145.25,54,US,Houston,Secure Internet LLC (SIL-69),,Low
+196.251.85.62,51,SC,,,,Low
+196.251.69.205,51,SC,,,,Low
+45.221.64.243,49,SC,,,,Low
+170.64.157.139,49,US,Broomfield,DigitalOcean, LLC (DO-13),,Low
+165.227.33.117,47,US,Broomfield,DigitalOcean, LLC (DO-13),,Low
+196.251.116.67,46,SC,,,,Low
+196.251.87.45,42,SC,,,,Low
+139.59.17.206,42,AU,South Brisbane,Asia Pacific Network Information Centre (APNIC),,Low
+170.64.162.9,39,US,Broomfield,DigitalOcean, LLC (DO-13),,Low
+80.94.95.118,38,GB,,,,Low
+206.123.145.35,36,US,Houston,Secure Internet LLC (SIL-69),,Low
+196.251.81.134,36,SC,,,,Low
+196.251.69.107,35,SC,,,,Low
+196.251.67.42,34,SC,,,,Low
+196.251.87.42,30,SC,,,,Low
+196.251.69.18,28,SC,,,,Low
+134.199.198.238,28,US,Broomfield,DigitalOcean, LLC (DO-13),,Low
+213.209.143.51,24,NL,,ORG-SITL5-RIPE,,Low
+196.251.69.116,24,SC,,,,Low
+172.104.11.34,20,US,Cambridge,Akamai Technologies, Inc. (AKAMAI),,Low
+196.251.116.162,18,SC,,,,Low
+182.92.11.127,18,CN,,,,Low
+36.156.22.4,16,CN,,ORG-CMCC1-AP,,Low
+196.251.66.3,16,SC,,,,Low
+192.155.90.220,16,US,Cambridge,Akamai Technologies, Inc. (AKAMAI),,Low
+172.236.228.229,16,US,Cambridge,Akamai Technologies, Inc. (AKAMAI),,Low
+150.107.38.251,16,HK,,ORG-UITL1-AP,,Low
+62.171.163.68,15,DE,,ORG-GG22-RIPE,,Low
+45.79.181.179,15,US,Cambridge,Akamai Technologies, Inc. (AKAMAI),,Low
+172.236.228.218,15,US,Cambridge,Akamai Technologies, Inc. (AKAMAI),,Low
+139.144.52.241,14,US,Cambridge,Akamai Technologies, Inc. (AKAMAI),,Low
+196.251.69.97,13,SC,,,,Low
+172.236.228.38,13,US,Cambridge,Akamai Technologies, Inc. (AKAMAI),,Low
+196.251.83.84,12,SC,,,,Low
+178.128.114.91,12,SG,,ORG-DOI2-RIPE,,Low
+172.236.228.115,12,US,Cambridge,Akamai Technologies, Inc. (AKAMAI),,Low
+172.235.40.131,12,US,Cambridge,Akamai Technologies, Inc. (AKAMAI),,Low
+172.236.228.197,11,US,Cambridge,Akamai Technologies, Inc. (AKAMAI),,Low
+172.104.11.51,11,US,Cambridge,Akamai Technologies, Inc. (AKAMAI),,Low
+85.208.84.54,10,RU,,ORG-OL315-RIPE,,Low
+80.94.95.115,9,GB,,,,Low

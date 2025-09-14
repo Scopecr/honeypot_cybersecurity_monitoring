@@ -1,0 +1,44 @@
+=== THREAT ACTOR CLUSTERING ANALYSIS - 2025-09-13 ===
+=== BEHAVIORAL CLUSTERING ===
+
+--- Cluster 1: Reconnaissance Specialists ---
+128.199.139.231 (330 recon commands)
+134.199.198.238 (27 recon commands)
+134.209.145.210 (504 recon commands)
+134.209.156.170 (246 recon commands)
+139.59.101.18 (159 recon commands)
+139.59.17.206 (123 recon commands)
+143.110.240.131 (15 recon commands)
+165.227.33.117 (138 recon commands)
+165.232.187.44 (12 recon commands)
+170.64.157.139 (123 recon commands)
+170.64.162.9 (111 recon commands)
+178.128.114.91 (30 recon commands)
+188.166.242.21 (192 recon commands)
+196.251.118.184 (308 recon commands)
+196.251.83.84 (27 recon commands)
+196.251.86.69 (3024 recon commands)
+213.209.143.51 (17 recon commands)
+27.201.147.43 (186 recon commands)
+51.79.2.27 (668 recon commands)
+
+--- Cluster 2: Malware Deployers ---
+209.177.94.88 (6 deployment commands)
+27.201.147.43 (186 deployment commands)
+47.243.28.171 (6 deployment commands)
+47.76.211.88 (6 deployment commands)
+8.140.234.136 (6 deployment commands)
+
+--- Cluster 3: Persistence Seekers ---
+213.209.143.51 (17 persistence attempts)
+
+=== INFRASTRUCTURE ANALYSIS ===
+
+--- Potential C&C Infrastructure ---
+      4 http://8.140.234.136:60105
+      4 http://47.76.211.88:60131
+      4 http://47.243.28.171:60133
+      4 http://209.177.94.88:60129
+      2 http://47.236.20.49:60120
+      2 http://45.15.168.245:60131
+      2 http://101.43.120.76:60120

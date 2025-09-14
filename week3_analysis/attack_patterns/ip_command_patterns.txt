@@ -1,0 +1,240 @@
+=== IP: 167.172.238.192 (12845 connections) ===
+
+=== IP: 196.251.86.69 (3045 connections) ===
+uname -s -v -n -r
+uname -s -v -n -r
+uname -s -v -n -r
+uname -s -v -n -r
+uname -s -v -n -r
+uname -s -v -n -r
+uname -s -v -n -r
+uname -s -v -n -r
+uname -s -v -n -r
+uname -s -v -n -r
+uname -s -v -n -r
+uname -s -v -n -r
+uname -s -v -n -r
+uname -s -v -n -r
+uname -s -v -n -r
+uname -s -v -n -r
+uname -s -v -n -r
+uname -s -v -n -r
+uname -s -v -n -r
+uname -s -v -n -r
+
+=== IP: 8.138.156.180 (2540 connections) ===
+echo -e "\x6F\x6B"
+echo -e "\x6F\x6B"
+echo -e "\x6F\x6B"
+echo -e "\x6F\x6B"
+echo -e "\x6F\x6B"
+echo -e "\x6F\x6B"
+echo -e "\x6F\x6B"
+echo -e "\x6F\x6B"
+echo -e "\x6F\x6B"
+echo -e "\x6F\x6B"
+echo -e "\x6F\x6B"
+echo -e "\x6F\x6B"
+echo -e "\x6F\x6B"
+echo -e "\x6F\x6B"
+echo -e "\x6F\x6B"
+echo -e "\x6F\x6B"
+echo -e "\x6F\x6B"
+echo -e "\x6F\x6B"
+echo -e "\x6F\x6B"
+echo -e "\x6F\x6B"
+
+=== IP: 51.79.2.27 (669 connections) ===
+uname -s -v -n -r -m
+uname -s -v -n -r -m
+uname -s -v -n -r -m
+uname -s -v -n -r -m
+uname -s -v -n -r -m
+uname -s -v -n -r -m
+uname -s -v -n -r -m
+uname -s -v -n -r -m
+uname -s -v -n -r -m
+uname -s -v -n -r -m
+uname -s -v -n -r -m
+uname -s -v -n -r -m
+uname -s -v -n -r -m
+uname -s -v -n -r -m
+uname -s -v -n -r -m
+uname -s -v -n -r -m
+uname -s -v -n -r -m
+uname -s -v -n -r -m
+uname -s -v -n -r -m
+uname -s -v -n -r -m
+
+=== IP: 139.199.80.137 (383 connections) ===
+
+=== IP: 196.251.118.184 (309 connections) ===
+uname -s -v -n -r -m
+uname -s -v -n -r -m
+uname -s -v -n -r -m
+uname -s -v -n -r -m
+uname -s -v -n -r -m
+uname -s -v -n -r -m
+uname -s -v -n -r -m
+uname -s -v -n -r -m
+uname -s -v -n -r -m
+uname -s -v -n -r -m
+uname -s -v -n -r -m
+uname -s -v -n -r -m
+uname -s -v -n -r -m
+uname -s -v -n -r -m
+uname -s -v -n -r -m
+uname -s -v -n -r -m
+uname -s -v -n -r -m
+uname -s -v -n -r -m
+uname -s -v -n -r -m
+uname -s -v -n -r -m
+
+=== IP: 187.157.91.186 (252 connections) ===
+
+=== IP: 27.201.147.43 (190 connections) ===
+cd /tmp ; echo uname -a > uname ; chmod 777 uname ; ./uname
+cd /tmp ; echo uname -a > uname ; chmod 777 uname ; ./uname
+cd /tmp ; echo uname -a > uname ; chmod 777 uname ; ./uname
+cd /tmp ; echo uname -a > uname ; chmod 777 uname ; ./uname
+cd /tmp ; echo uname -a > uname ; chmod 777 uname ; ./uname
+cd /tmp ; echo uname -a > uname ; chmod 777 uname ; ./uname
+cd /tmp ; echo uname -a > uname ; chmod 777 uname ; ./uname
+cd /tmp ; echo uname -a > uname ; chmod 777 uname ; ./uname
+cd /tmp ; echo uname -a > uname ; chmod 777 uname ; ./uname
+cd /tmp ; echo uname -a > uname ; chmod 777 uname ; ./uname
+cd /tmp ; echo uname -a > uname ; chmod 777 uname ; ./uname
+cd /tmp ; echo uname -a > uname ; chmod 777 uname ; ./uname
+cd /tmp ; echo uname -a > uname ; chmod 777 uname ; ./uname
+cd /tmp ; echo uname -a > uname ; chmod 777 uname ; ./uname
+cd /tmp ; echo uname -a > uname ; chmod 777 uname ; ./uname
+cd /tmp ; echo uname -a > uname ; chmod 777 uname ; ./uname
+cd /tmp ; echo uname -a > uname ; chmod 777 uname ; ./uname
+cd /tmp ; echo uname -a > uname ; chmod 777 uname ; ./uname
+cd /tmp ; echo uname -a > uname ; chmod 777 uname ; ./uname
+cd /tmp ; echo uname -a > uname ; chmod 777 uname ; ./uname
+
+=== IP: 204.76.203.28 (189 connections) ===
+
+=== IP: 134.209.145.210 (169 connections) ===
+uname=$(uname -s -v -n -m 2>/dev/null);; 		arch=$(uname -m 2>/dev/null);; 		uptime=$(awk '{u=int($1);d=int(u/86400);h=int((u%86400)/3600);m=int((u%3600)/60);s="";if(d>0)s=s d"d";if(h>0){if(s!="")s=s", ";s=s h"h"}if(m>0||s==""){if(s!="")s=s", ";s=s m"m"}print s}' /proc/uptime 2>/dev/null);; 		[ -z "$uptime" ] && secondsStr=$(cat /proc/uptime | cut -d' ' -f1 | cut -d. -f1) && [ -n "$secondsStr" ] && seconds=$((secondsStr)) && d=$((seconds/86400)) && h=$(( (seconds%86400)/3600 )) && m=$(( (seconds%3600)/60 )) && uptime="" && [ $d -gt 0 ] && uptime="${uptime}${d}d" && [ $h -gt 0 ] && { [ -n "$uptime" ] && uptime="$uptime, "; uptime="${uptime}${h}h"; } && { [ $m -gt 0 ] || [ -z "$uptime" ]; } && { [ -n "$uptime" ] && uptime="$uptime, "; uptime="${uptime}${m}m"; };; 		cpus=$( (nproc || grep -c "^processor" /proc/cpuinfo) 2>/dev/null | head -1);; 		cpu_model=$( (grep -m1 "model name" /proc/cpuinfo | cut -d: -f2 | sed 's/^ //;s/ *$//' || lscpu | grep -m1 "Model name" | cut -d: -f2 | sed 's/^ //;s/ *$//') 2>/dev/null);; 		gpu_info=$( (lspci | grep -i vga; lspci | grep -i nvidia) 2>/dev/null | head -n5);; 		cat_help=$((cat --help 2>&1 | tr '\n' ' ') || cat --help 2>&1);; 		ls_help=$((ls --help 2>&1 | tr '\n' ' ') || ls --help 2>&1);; 		last_output=$((last | tail -n 10) || last);; 		echo "UNAME:$uname";; 		echo "ARCH:$arch";; 		echo "UPTIME:$uptime";; 		echo "CPUS:$cpus";; 		echo "CPU_MODEL:$cpu_model";; 		echo "GPU:$gpu_info";; 		echo "CAT_HELP:$cat_help";; 		echo "LS_HELP:$ls_help";; 		echo "LAST:$last_output";
+uname -s -v -n -m 2 > /dev/null
+uname -m 2 > /dev/null
+awk {u=int($1
+cat /proc/uptime | cut -d -f1 | cut -d. -f1
+(secondsStr
+(seconds/86400
+( (seconds%86400
+(seconds%86400
+( (seconds%3600
+(seconds%3600
+uname=$(uname -s -v -n -m 2>/dev/null);; 		arch=$(uname -m 2>/dev/null);; 		uptime=$(awk '{u=int($1);d=int(u/86400);h=int((u%86400)/3600);m=int((u%3600)/60);s="";if(d>0)s=s d"d";if(h>0){if(s!="")s=s", ";s=s h"h"}if(m>0||s==""){if(s!="")s=s", ";s=s m"m"}print s}' /proc/uptime 2>/dev/null);; 		[ -z "$uptime" ] && secondsStr=$(cat /proc/uptime | cut -d' ' -f1 | cut -d. -f1) && [ -n "$secondsStr" ] && seconds=$((secondsStr)) && d=$((seconds/86400)) && h=$(( (seconds%86400)/3600 )) && m=$(( (seconds%3600)/60 )) && uptime="" && [ $d -gt 0 ] && uptime="${uptime}${d}d" && [ $h -gt 0 ] && { [ -n "$uptime" ] && uptime="$uptime, "; uptime="${uptime}${h}h"; } && { [ $m -gt 0 ] || [ -z "$uptime" ]; } && { [ -n "$uptime" ] && uptime="$uptime, "; uptime="${uptime}${m}m"; };; 		cpus=$( (nproc || grep -c "^processor" /proc/cpuinfo) 2>/dev/null | head -1);; 		cpu_model=$( (grep -m1 "model name" /proc/cpuinfo | cut -d: -f2 | sed 's/^ //;s/ *$//' || lscpu | grep -m1 "Model name" | cut -d: -f2 | sed 's/^ //;s/ *$//') 2>/dev/null);; 		gpu_info=$( (lspci | grep -i vga; lspci | grep -i nvidia) 2>/dev/null | head -n5);; 		cat_help=$((cat --help 2>&1 | tr '\n' ' ') || cat --help 2>&1);; 		ls_help=$((ls --help 2>&1 | tr '\n' ' ') || ls --help 2>&1);; 		last_output=$((last | tail -n 10) || last);; 		echo "UNAME:$uname";; 		echo "ARCH:$arch";; 		echo "UPTIME:$uptime";; 		echo "CPUS:$cpus";; 		echo "CPU_MODEL:$cpu_model";; 		echo "GPU:$gpu_info";; 		echo "CAT_HELP:$cat_help";; 		echo "LS_HELP:$ls_help";; 		echo "LAST:$last_output";
+uname -s -v -n -m 2 > /dev/null
+uname -m 2 > /dev/null
+awk {u=int($1
+cat /proc/uptime | cut -d -f1 | cut -d. -f1
+(secondsStr
+(seconds/86400
+( (seconds%86400
+(seconds%86400
+
+=== IP: 128.199.139.231 (112 connections) ===
+uname=$(uname -s -v -n -m 2>/dev/null);; 		arch=$(uname -m 2>/dev/null);; 		uptime=$(awk '{u=int($1);d=int(u/86400);h=int((u%86400)/3600);m=int((u%3600)/60);s="";if(d>0)s=s d"d";if(h>0){if(s!="")s=s", ";s=s h"h"}if(m>0||s==""){if(s!="")s=s", ";s=s m"m"}print s}' /proc/uptime 2>/dev/null);; 		[ -z "$uptime" ] && secondsStr=$(cat /proc/uptime | cut -d' ' -f1 | cut -d. -f1) && [ -n "$secondsStr" ] && seconds=$((secondsStr)) && d=$((seconds/86400)) && h=$(( (seconds%86400)/3600 )) && m=$(( (seconds%3600)/60 )) && uptime="" && [ $d -gt 0 ] && uptime="${uptime}${d}d" && [ $h -gt 0 ] && { [ -n "$uptime" ] && uptime="$uptime, "; uptime="${uptime}${h}h"; } && { [ $m -gt 0 ] || [ -z "$uptime" ]; } && { [ -n "$uptime" ] && uptime="$uptime, "; uptime="${uptime}${m}m"; };; 		cpus=$( (nproc || grep -c "^processor" /proc/cpuinfo) 2>/dev/null | head -1);; 		cpu_model=$( (grep -m1 "model name" /proc/cpuinfo | cut -d: -f2 | sed 's/^ //;s/ *$//' || lscpu | grep -m1 "Model name" | cut -d: -f2 | sed 's/^ //;s/ *$//') 2>/dev/null);; 		gpu_info=$( (lspci | grep -i vga; lspci | grep -i nvidia) 2>/dev/null | head -n50);; 		cat_help=$((cat --help 2>&1 | tr '\n' ' ') || cat --help 2>&1);; 		ls_help=$((ls --help 2>&1 | tr '\n' ' ') || ls --help 2>&1);; 		last_output=$(last 2>/dev/null | head -n 10);; 		echo "UNAME:$uname";; 		echo "ARCH:$arch";; 		echo "UPTIME:$uptime";; 		echo "CPUS:$cpus";; 		echo "CPU_MODEL:$cpu_model";; 		echo "GPU:$gpu_info";; 		echo "CAT_HELP:$cat_help";; 		echo "LS_HELP:$ls_help";; 		echo "LAST:$last_output";
+uname -s -v -n -m 2 > /dev/null
+uname -m 2 > /dev/null
+awk {u=int($1
+cat /proc/uptime | cut -d -f1 | cut -d. -f1
+(secondsStr
+(seconds/86400
+( (seconds%86400
+(seconds%86400
+( (seconds%3600
+(seconds%3600
+uname=$(uname -s -v -n -m 2>/dev/null);; 		arch=$(uname -m 2>/dev/null);; 		uptime=$(awk '{u=int($1);d=int(u/86400);h=int((u%86400)/3600);m=int((u%3600)/60);s="";if(d>0)s=s d"d";if(h>0){if(s!="")s=s", ";s=s h"h"}if(m>0||s==""){if(s!="")s=s", ";s=s m"m"}print s}' /proc/uptime 2>/dev/null);; 		[ -z "$uptime" ] && secondsStr=$(cat /proc/uptime | cut -d' ' -f1 | cut -d. -f1) && [ -n "$secondsStr" ] && seconds=$((secondsStr)) && d=$((seconds/86400)) && h=$(( (seconds%86400)/3600 )) && m=$(( (seconds%3600)/60 )) && uptime="" && [ $d -gt 0 ] && uptime="${uptime}${d}d" && [ $h -gt 0 ] && { [ -n "$uptime" ] && uptime="$uptime, "; uptime="${uptime}${h}h"; } && { [ $m -gt 0 ] || [ -z "$uptime" ]; } && { [ -n "$uptime" ] && uptime="$uptime, "; uptime="${uptime}${m}m"; };; 		cpus=$( (nproc || grep -c "^processor" /proc/cpuinfo) 2>/dev/null | head -1);; 		cpu_model=$( (grep -m1 "model name" /proc/cpuinfo | cut -d: -f2 | sed 's/^ //;s/ *$//' || lscpu | grep -m1 "Model name" | cut -d: -f2 | sed 's/^ //;s/ *$//') 2>/dev/null);; 		gpu_info=$( (lspci | grep -i vga; lspci | grep -i nvidia) 2>/dev/null | head -n50);; 		cat_help=$((cat --help 2>&1 | tr '\n' ' ') || cat --help 2>&1);; 		ls_help=$((ls --help 2>&1 | tr '\n' ' ') || ls --help 2>&1);; 		last_output=$(last 2>/dev/null | head -n 10);; 		echo "UNAME:$uname";; 		echo "ARCH:$arch";; 		echo "UPTIME:$uptime";; 		echo "CPUS:$cpus";; 		echo "CPU_MODEL:$cpu_model";; 		echo "GPU:$gpu_info";; 		echo "CAT_HELP:$cat_help";; 		echo "LS_HELP:$ls_help";; 		echo "LAST:$last_output";
+uname -s -v -n -m 2 > /dev/null
+uname -m 2 > /dev/null
+awk {u=int($1
+cat /proc/uptime | cut -d -f1 | cut -d. -f1
+(secondsStr
+(seconds/86400
+( (seconds%86400
+(seconds%86400
+
+=== IP: 194.0.234.21 (97 connections) ===
+
+=== IP: 206.123.145.21 (96 connections) ===
+
+=== IP: 134.209.156.170 (84 connections) ===
+uname=$(uname -s -v -n -m 2>/dev/null);; 		arch=$(uname -m 2>/dev/null);; 		uptime=$(awk '{u=int($1);d=int(u/86400);h=int((u%86400)/3600);m=int((u%3600)/60);s="";if(d>0)s=s d"d";if(h>0){if(s!="")s=s", ";s=s h"h"}if(m>0||s==""){if(s!="")s=s", ";s=s m"m"}print s}' /proc/uptime 2>/dev/null);; 		[ -z "$uptime" ] && secondsStr=$(cat /proc/uptime | cut -d' ' -f1 | cut -d. -f1) && [ -n "$secondsStr" ] && seconds=$((secondsStr)) && d=$((seconds/86400)) && h=$(( (seconds%86400)/3600 )) && m=$(( (seconds%3600)/60 )) && uptime="" && [ $d -gt 0 ] && uptime="${uptime}${d}d" && [ $h -gt 0 ] && { [ -n "$uptime" ] && uptime="$uptime, "; uptime="${uptime}${h}h"; } && { [ $m -gt 0 ] || [ -z "$uptime" ]; } && { [ -n "$uptime" ] && uptime="$uptime, "; uptime="${uptime}${m}m"; };; 		cpus=$( (nproc || grep -c "^processor" /proc/cpuinfo) 2>/dev/null | head -1);; 		cpu_model=$( (grep -m1 "model name" /proc/cpuinfo | cut -d: -f2 | sed 's/^ //;s/ *$//' || lscpu | grep -m1 "Model name" | cut -d: -f2 | sed 's/^ //;s/ *$//') 2>/dev/null);; 		gpu_info=$( (lspci | grep -i vga; lspci | grep -i nvidia) 2>/dev/null | head -n50);; 		cat_help=$((cat --help 2>&1 | tr '\n' ' ') || cat --help 2>&1);; 		ls_help=$((ls --help 2>&1 | tr '\n' ' ') || ls --help 2>&1);; 		last_output=$(last 2>/dev/null | head -n 10);; 		echo "UNAME:$uname";; 		echo "ARCH:$arch";; 		echo "UPTIME:$uptime";; 		echo "CPUS:$cpus";; 		echo "CPU_MODEL:$cpu_model";; 		echo "GPU:$gpu_info";; 		echo "CAT_HELP:$cat_help";; 		echo "LS_HELP:$ls_help";; 		echo "LAST:$last_output";
+uname -s -v -n -m 2 > /dev/null
+uname -m 2 > /dev/null
+awk {u=int($1
+cat /proc/uptime | cut -d -f1 | cut -d. -f1
+(secondsStr
+(seconds/86400
+( (seconds%86400
+(seconds%86400
+( (seconds%3600
+(seconds%3600
+uname=$(uname -s -v -n -m 2>/dev/null);; 		arch=$(uname -m 2>/dev/null);; 		uptime=$(awk '{u=int($1);d=int(u/86400);h=int((u%86400)/3600);m=int((u%3600)/60);s="";if(d>0)s=s d"d";if(h>0){if(s!="")s=s", ";s=s h"h"}if(m>0||s==""){if(s!="")s=s", ";s=s m"m"}print s}' /proc/uptime 2>/dev/null);; 		[ -z "$uptime" ] && secondsStr=$(cat /proc/uptime | cut -d' ' -f1 | cut -d. -f1) && [ -n "$secondsStr" ] && seconds=$((secondsStr)) && d=$((seconds/86400)) && h=$(( (seconds%86400)/3600 )) && m=$(( (seconds%3600)/60 )) && uptime="" && [ $d -gt 0 ] && uptime="${uptime}${d}d" && [ $h -gt 0 ] && { [ -n "$uptime" ] && uptime="$uptime, "; uptime="${uptime}${h}h"; } && { [ $m -gt 0 ] || [ -z "$uptime" ]; } && { [ -n "$uptime" ] && uptime="$uptime, "; uptime="${uptime}${m}m"; };; 		cpus=$( (nproc || grep -c "^processor" /proc/cpuinfo) 2>/dev/null | head -1);; 		cpu_model=$( (grep -m1 "model name" /proc/cpuinfo | cut -d: -f2 | sed 's/^ //;s/ *$//' || lscpu | grep -m1 "Model name" | cut -d: -f2 | sed 's/^ //;s/ *$//') 2>/dev/null);; 		gpu_info=$( (lspci | grep -i vga; lspci | grep -i nvidia) 2>/dev/null | head -n50);; 		cat_help=$((cat --help 2>&1 | tr '\n' ' ') || cat --help 2>&1);; 		ls_help=$((ls --help 2>&1 | tr '\n' ' ') || ls --help 2>&1);; 		last_output=$(last 2>/dev/null | head -n 10);; 		echo "UNAME:$uname";; 		echo "ARCH:$arch";; 		echo "UPTIME:$uptime";; 		echo "CPUS:$cpus";; 		echo "CPU_MODEL:$cpu_model";; 		echo "GPU:$gpu_info";; 		echo "CAT_HELP:$cat_help";; 		echo "LS_HELP:$ls_help";; 		echo "LAST:$last_output";
+uname -s -v -n -m 2 > /dev/null
+uname -m 2 > /dev/null
+awk {u=int($1
+cat /proc/uptime | cut -d -f1 | cut -d. -f1
+(secondsStr
+(seconds/86400
+( (seconds%86400
+(seconds%86400
+
+=== IP: 206.123.145.234 (81 connections) ===
+
+=== IP: 185.156.73.233 (73 connections) ===
+
+=== IP: 188.166.242.21 (69 connections) ===
+uname=$(uname -s -v -n -m 2>/dev/null);; 		arch=$(uname -m 2>/dev/null);; 		uptime=$(awk '{u=int($1);d=int(u/86400);h=int((u%86400)/3600);m=int((u%3600)/60);s="";if(d>0)s=s d"d";if(h>0){if(s!="")s=s", ";s=s h"h"}if(m>0||s==""){if(s!="")s=s", ";s=s m"m"}print s}' /proc/uptime 2>/dev/null);; 		[ -z "$uptime" ] && secondsStr=$(cat /proc/uptime | cut -d' ' -f1 | cut -d. -f1) && [ -n "$secondsStr" ] && seconds=$((secondsStr)) && d=$((seconds/86400)) && h=$(( (seconds%86400)/3600 )) && m=$(( (seconds%3600)/60 )) && uptime="" && [ $d -gt 0 ] && uptime="${uptime}${d}d" && [ $h -gt 0 ] && { [ -n "$uptime" ] && uptime="$uptime, "; uptime="${uptime}${h}h"; } && { [ $m -gt 0 ] || [ -z "$uptime" ]; } && { [ -n "$uptime" ] && uptime="$uptime, "; uptime="${uptime}${m}m"; };; 		cpus=$( (nproc || grep -c "^processor" /proc/cpuinfo) 2>/dev/null | head -1);; 		cpu_model=$( (grep -m1 "model name" /proc/cpuinfo | cut -d: -f2 | sed 's/^ //;s/ *$//' || lscpu | grep -m1 "Model name" | cut -d: -f2 | sed 's/^ //;s/ *$//') 2>/dev/null);; 		gpu_info=$( (lspci | grep -i vga; lspci | grep -i nvidia) 2>/dev/null | head -n50);; 		cat_help=$((cat --help 2>&1 | tr '\n' ' ') || cat --help 2>&1);; 		ls_help=$((ls --help 2>&1 | tr '\n' ' ') || ls --help 2>&1);; 		last_output=$(last 2>/dev/null | head -n 10);; 		echo "UNAME:$uname";; 		echo "ARCH:$arch";; 		echo "UPTIME:$uptime";; 		echo "CPUS:$cpus";; 		echo "CPU_MODEL:$cpu_model";; 		echo "GPU:$gpu_info";; 		echo "CAT_HELP:$cat_help";; 		echo "LS_HELP:$ls_help";; 		echo "LAST:$last_output";
+uname -s -v -n -m 2 > /dev/null
+uname -m 2 > /dev/null
+awk {u=int($1
+cat /proc/uptime | cut -d -f1 | cut -d. -f1
+(secondsStr
+(seconds/86400
+( (seconds%86400
+(seconds%86400
+( (seconds%3600
+(seconds%3600
+uname=$(uname -s -v -n -m 2>/dev/null);; 		arch=$(uname -m 2>/dev/null);; 		uptime=$(awk '{u=int($1);d=int(u/86400);h=int((u%86400)/3600);m=int((u%3600)/60);s="";if(d>0)s=s d"d";if(h>0){if(s!="")s=s", ";s=s h"h"}if(m>0||s==""){if(s!="")s=s", ";s=s m"m"}print s}' /proc/uptime 2>/dev/null);; 		[ -z "$uptime" ] && secondsStr=$(cat /proc/uptime | cut -d' ' -f1 | cut -d. -f1) && [ -n "$secondsStr" ] && seconds=$((secondsStr)) && d=$((seconds/86400)) && h=$(( (seconds%86400)/3600 )) && m=$(( (seconds%3600)/60 )) && uptime="" && [ $d -gt 0 ] && uptime="${uptime}${d}d" && [ $h -gt 0 ] && { [ -n "$uptime" ] && uptime="$uptime, "; uptime="${uptime}${h}h"; } && { [ $m -gt 0 ] || [ -z "$uptime" ]; } && { [ -n "$uptime" ] && uptime="$uptime, "; uptime="${uptime}${m}m"; };; 		cpus=$( (nproc || grep -c "^processor" /proc/cpuinfo) 2>/dev/null | head -1);; 		cpu_model=$( (grep -m1 "model name" /proc/cpuinfo | cut -d: -f2 | sed 's/^ //;s/ *$//' || lscpu | grep -m1 "Model name" | cut -d: -f2 | sed 's/^ //;s/ *$//') 2>/dev/null);; 		gpu_info=$( (lspci | grep -i vga; lspci | grep -i nvidia) 2>/dev/null | head -n50);; 		cat_help=$((cat --help 2>&1 | tr '\n' ' ') || cat --help 2>&1);; 		ls_help=$((ls --help 2>&1 | tr '\n' ' ') || ls --help 2>&1);; 		last_output=$(last 2>/dev/null | head -n 10);; 		echo "UNAME:$uname";; 		echo "ARCH:$arch";; 		echo "UPTIME:$uptime";; 		echo "CPUS:$cpus";; 		echo "CPU_MODEL:$cpu_model";; 		echo "GPU:$gpu_info";; 		echo "CAT_HELP:$cat_help";; 		echo "LS_HELP:$ls_help";; 		echo "LAST:$last_output";
+uname -s -v -n -m 2 > /dev/null
+uname -m 2 > /dev/null
+awk {u=int($1
+cat /proc/uptime | cut -d -f1 | cut -d. -f1
+(secondsStr
+(seconds/86400
+( (seconds%86400
+(seconds%86400
+
+=== IP: 51.158.205.203 (66 connections) ===
+
+=== IP: 139.59.101.18 (61 connections) ===
+uname=$(uname -s -v -n -m 2>/dev/null);; 		arch=$(uname -m 2>/dev/null);; 		uptime=$(awk '{u=int($1);d=int(u/86400);h=int((u%86400)/3600);m=int((u%3600)/60);s="";if(d>0)s=s d"d";if(h>0){if(s!="")s=s", ";s=s h"h"}if(m>0||s==""){if(s!="")s=s", ";s=s m"m"}print s}' /proc/uptime 2>/dev/null);; 		[ -z "$uptime" ] && secondsStr=$(cat /proc/uptime | cut -d' ' -f1 | cut -d. -f1) && [ -n "$secondsStr" ] && seconds=$((secondsStr)) && d=$((seconds/86400)) && h=$(( (seconds%86400)/3600 )) && m=$(( (seconds%3600)/60 )) && uptime="" && [ $d -gt 0 ] && uptime="${uptime}${d}d" && [ $h -gt 0 ] && { [ -n "$uptime" ] && uptime="$uptime, "; uptime="${uptime}${h}h"; } && { [ $m -gt 0 ] || [ -z "$uptime" ]; } && { [ -n "$uptime" ] && uptime="$uptime, "; uptime="${uptime}${m}m"; };; 		cpus=$( (nproc || grep -c "^processor" /proc/cpuinfo) 2>/dev/null | head -1);; 		cpu_model=$( (grep -m1 "model name" /proc/cpuinfo | cut -d: -f2 | sed 's/^ //;s/ *$//' || lscpu | grep -m1 "Model name" | cut -d: -f2 | sed 's/^ //;s/ *$//') 2>/dev/null);; 		gpu_info=$( (lspci | grep -i vga; lspci | grep -i nvidia) 2>/dev/null | head -n5);; 		cat_help=$((cat --help 2>&1 | tr '\n' ' ') || cat --help 2>&1);; 		ls_help=$((ls --help 2>&1 | tr '\n' ' ') || ls --help 2>&1);; 		last_output=$((last | tail -n 10) || last);; 		echo "UNAME:$uname";; 		echo "ARCH:$arch";; 		echo "UPTIME:$uptime";; 		echo "CPUS:$cpus";; 		echo "CPU_MODEL:$cpu_model";; 		echo "GPU:$gpu_info";; 		echo "CAT_HELP:$cat_help";; 		echo "LS_HELP:$ls_help";; 		echo "LAST:$last_output";
+uname -s -v -n -m 2 > /dev/null
+uname -m 2 > /dev/null
+awk {u=int($1
+cat /proc/uptime | cut -d -f1 | cut -d. -f1
+(secondsStr
+(seconds/86400
+( (seconds%86400
+(seconds%86400
+( (seconds%3600
+(seconds%3600
+uname=$(uname -s -v -n -m 2>/dev/null);; 		arch=$(uname -m 2>/dev/null);; 		uptime=$(awk '{u=int($1);d=int(u/86400);h=int((u%86400)/3600);m=int((u%3600)/60);s="";if(d>0)s=s d"d";if(h>0){if(s!="")s=s", ";s=s h"h"}if(m>0||s==""){if(s!="")s=s", ";s=s m"m"}print s}' /proc/uptime 2>/dev/null);; 		[ -z "$uptime" ] && secondsStr=$(cat /proc/uptime | cut -d' ' -f1 | cut -d. -f1) && [ -n "$secondsStr" ] && seconds=$((secondsStr)) && d=$((seconds/86400)) && h=$(( (seconds%86400)/3600 )) && m=$(( (seconds%3600)/60 )) && uptime="" && [ $d -gt 0 ] && uptime="${uptime}${d}d" && [ $h -gt 0 ] && { [ -n "$uptime" ] && uptime="$uptime, "; uptime="${uptime}${h}h"; } && { [ $m -gt 0 ] || [ -z "$uptime" ]; } && { [ -n "$uptime" ] && uptime="$uptime, "; uptime="${uptime}${m}m"; };; 		cpus=$( (nproc || grep -c "^processor" /proc/cpuinfo) 2>/dev/null | head -1);; 		cpu_model=$( (grep -m1 "model name" /proc/cpuinfo | cut -d: -f2 | sed 's/^ //;s/ *$//' || lscpu | grep -m1 "Model name" | cut -d: -f2 | sed 's/^ //;s/ *$//') 2>/dev/null);; 		gpu_info=$( (lspci | grep -i vga; lspci | grep -i nvidia) 2>/dev/null | head -n5);; 		cat_help=$((cat --help 2>&1 | tr '\n' ' ') || cat --help 2>&1);; 		ls_help=$((ls --help 2>&1 | tr '\n' ' ') || ls --help 2>&1);; 		last_output=$((last | tail -n 10) || last);; 		echo "UNAME:$uname";; 		echo "ARCH:$arch";; 		echo "UPTIME:$uptime";; 		echo "CPUS:$cpus";; 		echo "CPU_MODEL:$cpu_model";; 		echo "GPU:$gpu_info";; 		echo "CAT_HELP:$cat_help";; 		echo "LS_HELP:$ls_help";; 		echo "LAST:$last_output";
+uname -s -v -n -m 2 > /dev/null
+uname -m 2 > /dev/null
+awk {u=int($1
+cat /proc/uptime | cut -d -f1 | cut -d. -f1
+(secondsStr
+(seconds/86400
+( (seconds%86400
+(seconds%86400
+
+=== IP: 213.209.143.117 (60 connections) ===
+
