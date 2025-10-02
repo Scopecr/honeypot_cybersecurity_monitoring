@@ -231,4 +231,4 @@ This repository/documentation is provided as-is for educational and research pur
 If you want an expanded section about interpreting Cowrie logs, parsing JSON logs for indicators of compromise (IOCs), or integration with SIEM/ELK, tell me which format or tool you prefer and I will include sample commands and dashboards.
 
 ## Authors
-Walter Carrion [Github](https://github.com/Scopecr), Joshua Santiago [Github](https://github.com/Joshua7792), Hector Rodriguez[Github](https://github.com/fitowashere)
+Walter Carrion [Github](https://github.com/Scopecr), Joshua Santiago [Github](https://github.com/Joshua7792), Hector Rodriguez [Github](https://github.com/fitowashere)
