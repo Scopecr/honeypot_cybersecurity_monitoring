@@ -1,4 +1,3 @@
-```markdown
 # HoneyPot for Cybersecurity Monitoring
 
 This repository contains instructions to deploy and configure **Cowrie**, a medium-interaction SSH and Telnet honeypot, on a VPS for monitoring and analyzing attacker activity.
@@ -233,4 +232,3 @@ If you want an expanded section about interpreting Cowrie logs, parsing JSON log
 
 ## Authors
 Walter Carrion [Github](https://github.com/Scopecr), Joshua Santiago [Github](https://github.com/Joshua7792), Hector Rodriguez[Github](https://github.com/fitowashere)
-```
