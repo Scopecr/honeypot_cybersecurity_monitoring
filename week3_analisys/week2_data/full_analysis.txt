@@ -1,0 +1,178 @@
+=== Comprehensive Historical Analysis - Generated 2025-09-13 ===
+Analysis covers ALL data from honeypot deployment
+=================================================
+
+ OVERALL STATISTICS:
+Total connections: 140
+Successful logins: 123
+Failed login attempts: 0
+Commands executed: 121
+Unique IP addresses: 6
+
+ ATTACK TIMELINE:
+First attack: 2025-09-13T00:03:10.801720Z [cowrie.ssh.factory.CowrieSSHFactory] New connection: 139.199.80.137:53166 (167.172.238.192:2222) [session: 805592734298]
+Latest attack: 2025-09-13T01:58:24.634962Z [cowrie.ssh.factory.CowrieSSHFactory] New connection: 196.251.86.69:41220 (167.172.238.192:2222) [session: cdfad3eec948]
+
+ˆ DAILY BREAKDOWN:
+    140 2025-09-13
+
+ MOST COMMON COMMANDS:
+    121 
+
+ TOOLS & ATTACK TECHNIQUES DETECTED:
+=== Network Reconnaissance ===
+
+=== Download/Transfer Tools ===
+
+=== System Enumeration ===
+    121 
+
+=== File System Exploration ===
+
+=== Privilege Escalation Attempts ===
+
+=== Persistence Mechanisms ===
+
+=== Scripting/Automation Tools ===
+
+=== Executable Files Run ===
+
+ GEOGRAPHIC ANALYSIS:
+Top attacking countries:
+      2 NL
+      2 AU
+      1 US
+      1 SC
+
+ CREDENTIAL ANALYSIS:
+Successful login combinations:
+      1 [b'user'/b'user123456']
+      1 [b'user'/b'user123123']
+      1 [b'user'/b'user123']
+      1 [b'user'/b'user']
+      1 [b'user'/b'123456']
+      1 [b'user'/b'123123']
+      1 [b'user'/b'123']
+      1 [b'ubuntu'/b'ubuntu@123']
+      1 [b'ubuntu'/b'ubuntu123456']
+      1 [b'ubuntu'/b'ubuntu123123']
+      1 [b'ubuntu'/b'ubuntu123']
+      1 [b'ubuntu'/b'ubuntu']
+      1 [b'ubuntu'/b'123qwe']
+      1 [b'ubuntu'/b'123456']
+      1 [b'ubuntu'/b'123123']
+      1 [b'ubuntu'/b'123']
+      1 [b'test'/b'test@123']
+      1 [b'test'/b'test123456']
+      1 [b'test'/b'test1234']
+      1 [b'test'/b'test123123']
+      1 [b'test'/b'test123']
+      1 [b'test'/b'test']
+      1 [b'test'/b'P@ssw0rd']
+      1 [b'test'/b'123456789']
+      1 [b'test'/b'12345678']
+      1 [b'test'/b'123456']
+      1 [b'test'/b'1234']
+      1 [b'test'/b'123123']
+      1 [b'test'/b'123']
+      1 [b'test'/b'1']
+      1 [b'root'/b'root@123']
+      1 [b'root'/b'root123456789']
+      1 [b'root'/b'root12345678']
+      1 [b'root'/b'root1234567']
+      1 [b'root'/b'root123456']
+      1 [b'root'/b'root12345']
+      1 [b'root'/b'root1234']
+      1 [b'root'/b'root123123']
+      1 [b'root'/b'root123']
+      1 [b'root'/b'root12']
+      1 [b'root'/b'root1']
+      1 [b'root'/b'root']
+      1 [b'root'/b'password123']
+      1 [b'root'/b'password']
+      1 [b'root'/b'p@ssw0rd']
+      1 [b'root'/b'oracle']
+      1 [b'root'/b'lenovo@123']
+      1 [b'root'/b'lenovo']
+      1 [b'root'/b'huawei']
+      1 [b'root'/b'dell@123']
+      1 [b'root'/b'admin']
+      1 [b'root'/b'a123456']
+      1 [b'root'/b'P@ssw0rd']
+      1 [b'root'/b'Lenovo@123']
+      1 [b'root'/b'Huawei@123']
+      1 [b'root'/b'Dell@123']
+      1 [b'root'/b'Aa123456']
+      1 [b'root'/b'1q2w3e']
+      1 [b'root'/b'1q2!@#$%']
+      1 [b'root'/b'123qwe']
+      1 [b'root'/b'1234567890']
+      1 [b'root'/b'123456789']
+      1 [b'root'/b'12345678']
+      1 [b'root'/b'1234567']
+      1 [b'root'/b'123456']
+      1 [b'root'/b'12345']
+      1 [b'root'/b'1234']
+      1 [b'root'/b'123123']
+      1 [b'root'/b'123']
+      1 [b'root'/b'12']
+      1 [b'root'/b'1']
+      1 [b'postgres'/b'postgres123456']
+      1 [b'postgres'/b'postgres123123']
+      1 [b'postgres'/b'postgres123']
+      1 [b'postgres'/b'postgres']
+      1 [b'postgres'/b'123456']
+      1 [b'postgres'/b'123123']
+      1 [b'postgres'/b'123']
+      1 [b'oracle'/b'oracle123456']
+      1 [b'oracle'/b'oracle123123']
+      1 [b'oracle'/b'oracle123']
+      1 [b'oracle'/b'oracle']
+      1 [b'oracle'/b'123456']
+      1 [b'oracle'/b'123123']
+      1 [b'oracle'/b'123']
+      1 [b'mysql'/b'mysql123456']
+      1 [b'mysql'/b'mysql123123']
+      1 [b'mysql'/b'mysql123']
+      1 [b'mysql'/b'mysql']
+      1 [b'mysql'/b'123456']
+      1 [b'mysql'/b'123123']
+      1 [b'mysql'/b'123']
+      1 [b'hadoop'/b'hadoop123456']
+      1 [b'hadoop'/b'hadoop123123']
+      1 [b'hadoop'/b'hadoop123']
+      1 [b'hadoop'/b'hadoop']
+      1 [b'hadoop'/b'123456']
+      1 [b'hadoop'/b'123123']
+      1 [b'hadoop'/b'123']
+      1 [b'grid'/b'grid']
+      1 [b'grid'/b'123456']
+      1 [b'git'/b'git123456']
+      1 [b'git'/b'git123123']
+      1 [b'git'/b'git123']
+      1 [b'git'/b'git']
+      1 [b'git'/b'123456']
+      1 [b'git'/b'123123']
+      1 [b'git'/b'123']
+      1 [b'cloud'/b'cloud']
+      1 [b'cloud'/b'123456']
+      1 [b'admin'/b'password']
+      1 [b'admin'/b'admin@123']
+      1 [b'admin'/b'admin1234']
+      1 [b'admin'/b'admin123']
+      1 [b'admin'/b'admin']
+      1 [b'admin'/b'P@ssw0rd']
+      1 [b'admin'/b'123456789']
+      1 [b'admin'/b'12345678']
+      1 [b'admin'/b'123456']
+      1 [b'admin'/b'1234']
+      1 [b'admin'/b'123123']
+      1 [b'admin'/b'123']
+      1 [b'admin'/b'1']
+Failed login combinations (top 10):
+
+ SESSION ANALYSIS:
+Total sessions: 132
+
+FILE DOWNLOADS:
+Total download attempts: 0
