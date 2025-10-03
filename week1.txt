@@ -1,0 +1,156 @@
+Week 1 Honeypot (Corie) Setup
+
+Step 1 — Connect to your VPS
+Purpose: SSH into the VPS so you can perform setup tasks.
+
+Command:
+ssh root@167.172.238.192
+
+Action: Enter the root password you created during the droplet/VPS setup. After this you will have a root shell on the VPS.
+
+Step 2 — Initial VPS setup and prerequisites
+Purpose: Update the system, create a dedicated user for Cowrie, grant sudo, and install packages Cowrie needs.
+
+Commands and explanation:
+apt update && apt upgrade -y
+adduser cowrie
+usermod -aG sudo cowrie
+apt install git python3-virtualenv libssl-dev libffi-dev build-essential             libpython3-dev python3-minimal authbind virtualenv python3-pip             python3-venv python3-dev gcc g++ make -y
+
+Step 3 — Configure SSH for admin access
+Purpose: Move your admin SSH to a non-default port and restrict allowed users so the honeypot can use the default port(s).
+
+Commands:
+nano /etc/ssh/sshd_config
+
+Change or add:
+Port 2222
+AllowUsers root cowrie
+
+Restart SSH service:
+systemctl restart ssh
+
+Step 4 — Configure the firewall
+Purpose: Open necessary ports for the honeypot services while controlling access to the system.
+
+Commands:
+ufw allow 22/tcp
+ufw allow 23/tcp
+ufw --force enable
+ufw status
+
+Step 5 — Install Cowrie
+Purpose: Clone Cowrie into the cowrie user account and install its Python dependencies inside a virtual environment.
+
+Commands:
+su - cowrie
+git clone http://github.com/cowrie/cowrie
+cd cowrie
+python3 -m venv cowrie-env
+source cowrie-env/bin/activate
+pip install --upgrade pip
+pip install --upgrade -r requirements.txt
+
+Step 6 — Configure Cowrie
+Purpose: Copy the sample config to an active config file and edit listen endpoints.
+
+Commands:
+cp etc/cowrie.cfg.dist etc/cowrie.cfg
+nano etc/cowrie.cfg
+
+Modify:
+[ssh]
+listen_endpoints = tcp:2222:interface=0.0.0.0
+
+[telnet]
+enabled = true
+listen_endpoints = tcp:2323:interface=0.0.0.0
+
+Step 7 — Create fake user credentials (userdb)
+Purpose: Add plausible usernames and passwords that attackers might try.
+
+Commands:
+cat > etc/userdb.txt << 'EOF'
+root:x:root
+root:x:123456
+root:x:password
+admin:x:admin
+admin:x:password
+user:x:user
+test:x:test
+guest:x:guest
+oracle:x:oracle
+*:x:*
+EOF
+
+Step 8 — Create a fake filesystem
+Purpose: Populate Cowrie’s shared directory with a realistic filesystem and files.
+
+Commands:
+mkdir -p share/cowrie
+cd share/cowrie
+mkdir -p home/{admin,user,test,guest,operator}
+mkdir -p home/admin/{Documents,Downloads,Desktop,Pictures}
+mkdir -p home/user/{Documents,Downloads}
+mkdir -p var/{log,www,lib,cache}
+mkdir -p etc/{apache2,mysql,ssh}
+mkdir -p usr/{local/bin,share,lib}
+mkdir -p opt tmp root
+
+echo "admin:$6$salt$hashedpassword" > etc/shadow
+echo "database_password=secret123" > etc/mysql/my.cnf
+echo "ServerName localhost" > etc/apache2/apache2.conf
+echo "127.0.0.1 localhost" > etc/hosts
+echo "192.168.1.100 database-server" >> etc/hosts
+
+echo "Welcome to the admin account" > home/admin/readme.txt
+echo "Personal files and documents" > home/admin/Documents/important.txt
+
+cat > usr/local/bin/backup.sh << 'EOF'
+#!/bin/bash
+echo "Daily backup script"
+echo "Backing up /home to /backup..."
+echo "Backup completed at $(date)"
+EOF
+
+cat > usr/local/bin/cleanup.sh << 'EOF'
+#!/bin/bash
+echo "System cleanup script"
+echo "Cleaning temporary files..."
+echo "Cleanup completed"
+EOF
+
+chmod +x usr/local/bin/backup.sh
+chmod +x usr/local/bin/cleanup.sh
+
+mkdir -p home/admin/.ssh
+echo "ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQ... admin@server" > home/admin/.ssh/authorized_keys
+echo "-----BEGIN RSA PRIVATE KEY-----" > home/admin/.ssh/id_rsa
+echo "MIIEpAIBAAKCAQEA..." >> home/admin/.ssh/id_rsa
+echo "-----END RSA PRIVATE KEY-----" >> home/admin/.ssh/id_rsa
+chmod 600 home/admin/.ssh/id_rsa
+chmod 644 home/admin/.ssh/authorized_keys
+
+Step 9 — Start Cowrie
+Purpose: Launch the Cowrie honeypot and confirm it runs.
+
+Commands:
+cd ~/cowrie
+bin/cowrie start
+bin/cowrie status
+
+Step 10 — Test the honeypot
+Purpose: Verify the honeypot accepts connections.
+
+Commands:
+ssh -p 2222 root@localhost
+ssh -p 2222 root@167.172.238.192
+
+Step 11 — Monitor honeypot activity and logs
+Purpose: Observe connections, authentication attempts, and captured activity.
+
+Commands:
+tail -f log/cowrie.log
+grep -i "connection" log/cowrie.log
+grep -i "login" log/cowrie.log
+tail -f log/cowrie.json
